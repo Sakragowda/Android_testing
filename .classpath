@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="/Maven_android"/>
 	<classpathentry kind="lib" path="C:/Users/sakra/Downloads/java-client-7.5.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/sakra/Downloads/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
 	<classpathentry kind="lib" path="C:/Users/sakra/Downloads/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
@@ -15,6 +16,7 @@
 	<classpathentry kind="lib" path="C:/Users/sakra/Downloads/commons-lang3-3.12.0-bin/commons-lang3-3.12.0/commons-lang3-3.12.0-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/sakra/Downloads/commons-lang3-3.12.0-bin/commons-lang3-3.12.0/commons-lang3-3.12.0-tests.jar"/>
 	<classpathentry kind="lib" path="C:/Users/sakra/Downloads/commons-lang3-3.12.0-bin/commons-lang3-3.12.0/commons-lang3-3.12.0-test-sources.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/FrameWorkProject/poi/junit-4.12.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

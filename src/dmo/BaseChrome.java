@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
@@ -34,7 +35,7 @@ public class BaseChrome {
 	     
 	     DesiredCapabilities capabilities = new DesiredCapabilities();
 	     
-	    // capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus");
+//	     capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus");
 	     capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "46168ec3 ");
 //	     capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
 	     
@@ -46,7 +47,7 @@ public class BaseChrome {
 //	     capabilities.setCapability("platformVersion", "7");   // Emulator Nexus
 	     capabilities.setCapability("platformVersion", "9");  // real device MI redmi note 5 pro
 	     
-	     capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
+	     capabilities.setCapability(CapabilityType.BROWSER_NAME, "Chrome");
 	     capabilities.setBrowserName("Chrome");
 	     
 //	     capabilities.setCapability("no",true);

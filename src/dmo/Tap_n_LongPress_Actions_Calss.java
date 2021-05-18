@@ -5,15 +5,10 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebElement;
 
 import io.appium.java_client.TouchAction;
-import static io.appium.java_client.touch.TapOptions.tapOptions;
-import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
-
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 
-import static java.time.Duration.ofSeconds;
 import java.net.MalformedURLException;
-import static io.appium.java_client.touch.offset.ElementOption.element;
 
 public class Tap_n_LongPress_Actions_Calss extends abc {
 

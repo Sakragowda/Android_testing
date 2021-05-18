@@ -1,9 +1,5 @@
 package dmo;
 
-import static io.appium.java_client.touch.LongPressOptions.longPressOptions;
-import static io.appium.java_client.touch.offset.ElementOption.element;
-import static java.time.Duration.ofSeconds;
-
 import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
