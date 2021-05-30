@@ -2,9 +2,9 @@ package dmo;
 
 import java.net.MalformedURLException;
 
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.testng.Assert;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;

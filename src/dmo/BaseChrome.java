@@ -27,9 +27,9 @@ public class BaseChrome {
 		AndroidDriver<AndroidElement>  driver;
 //		WebDriver driver;
 		
-	/*	// TODO Auto-generated method stub
+		// TODO Auto-generated method stub
 		 File appDir = new File("src");
-	     File app = new File(appDir, "ApiDemos-debug.apk");  */
+	     File app = new File(appDir, "ApiDemos-debug.apk");  
 	     
 //		 File app = new File(appDir, "Api-demos-debug.apk");
 	     
